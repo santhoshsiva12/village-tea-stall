@@ -1,27 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.bg-image {
+  background-image: url("public/backgroundimage1.jpg");
+  background-size: cover; /* Ensure the image covers the entire area */
+  background-position: center; /* Center the image within the container */
+  background-repeat: no-repeat;
+  height: 100vh; /* Set height to 100% of viewport */
 }
