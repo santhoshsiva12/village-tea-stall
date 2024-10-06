@@ -3,8 +3,8 @@
 @tailwind utilities;
 .bg-image {
   background-image: url("public/backgroundimage1.jpg");
-  background-size: cover; /* Ensure the image covers the entire area */
-  background-position: center; /* Center the image within the container */
+  background-size: cover; 
+  background-position: center; 
   background-repeat: no-repeat;
-  height: 100vh; /* Set height to 100% of viewport */
+  height: 100vh; 
 }
