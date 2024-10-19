@@ -11,12 +11,12 @@ export const headerArray = [
     },
     {
         id: 3,
-        path: "/",
+        path: "/ContactUs",
         name: "Contact Us",
     },
     {
         id: 4,
-        path: "/",
+        path: "/AboutUs",
         name: "About Us",
     },
 ]
