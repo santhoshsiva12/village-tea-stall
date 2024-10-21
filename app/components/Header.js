@@ -2,6 +2,7 @@ import {headerArray, plaeceholderStrings} from '@/app/components/common/strings'
 import logo from '@/app/public/logo.jpeg'
 import Image from 'next/image'
 import HeaderButton from './HeaderButton'
+import InputSearch from './InputSearch'
 const Header = () => {
   return (
     <section className="flex absolute top-10 w-[90%] mx-auto px-4 py-2 rounded-lg items-center justify-between text-base z-50">
@@ -16,10 +17,13 @@ const Header = () => {
             />
         </div>
         <div className="ml-4 w-[70%]">
-            <input 
+           <div>
+           {/* <input 
             type="search" 
             placeholder={plaeceholderStrings?.search}
-            className="border border-1 w-full p-2 rounded-lg"/>
+            className="border border-1 w-full p-2 rounded-lg"/> */}
+            <InputSearch placeholderValue={plaeceholderStrings?.search}/>
+           </div>
         </div>
         </div>
         <ul className="flex bg-white rounded-lg px-3 py-2">
